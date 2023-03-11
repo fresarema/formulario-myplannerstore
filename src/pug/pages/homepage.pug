@@ -1,0 +1,94 @@
+-
+
+    //- ::: Variables PUG ::: -//
+
+    let base = '';
+
+
+//- ::: Include Head & Body ::: -//
+include ../includes/head
+
+include ../includes/navbar
+include ../includes/sidebar
+
+<section class="slide fade-4" data-title="Homepage" data-name="homepage">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+
+
+                <ul class="flex">
+
+                    <li class="fix-8-12 margin-top-desktop-20 margin-top-10 margin-bottom-6">
+
+
+                        <h3 class="smaller roboto weight-9 margin-top-desktop-2" style="line-height: .9em;"  >Tu vida, tus metas, tu estilo</h3>
+
+                        <h2 class="h1 largest roboto weight-9 margin-top-1" style="line-height: .9em;" >Crea tu agenda ahora!</h2>
+
+                        <div style="margin: 0 80px">
+
+                            <p class="smaller weight-6 margin-top-1" id="cities">
+
+
+                            </p>
+
+                        </div>
+
+
+
+                    </li>
+
+
+                    <li class="fix-4-12">
+
+
+                        <div class="pad padding-top-3 shadow selected">
+
+
+                            <h6 class="largest roboto weight-9 opacity-8 padding-top-2" style="line-height: .9em" >¡PLANIFICA TU VIDA CON ESTILO!</h6>
+                            <h6 class="smaller weight-6 margin-bottom-1 opacity-8" >Reserva tu agenda personalizada</h6>
+
+                            +form_personalized_attention()
+                        </div>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="background youtube" style="background-image:url(https://images.pexels.com/photos/13977914/pexels-photo-13977914.jpeg);" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=clVsl2hshXc', containment:'self', startAt: 128, stopAt: 160, showControls:false, autoPlay:true, loop:true, mute:true, opacity:1, quality:'highres', stopMovieOnBlur:false, remember_last_time: true}"></div>
+
+
+
+</section>
+
+<section class="slide fade-6 kenBurns fromLeft selected animate active" data-title="Slide #15 (15)" data-name="slide-15-41d6f44f">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+
+                <div class="fix-12-12">
+                    <div class="fix-6-12 left toRight">
+                        <h1 class="smaller margin-bottom-2 done">Tu día a día nunca fue tan especial</h1>
+                        <p class="large done"><span class="opacity-8">Planifica tus sueños y hazlos realidad con nuestras agendas personalizadas. Tenemos la agenda específica para lo que necesitas. Quieres ponerte en contacto? Haz clic en el botón y conversemos!</span></p>
+                        <a href="https://api.whatsapp.com/send?phone=#{ whatsapp_number }&text=¡Hola! Quiero una agenda personalizada. Tienes algún producto disponible?" class="button small green rounded crop margin-bottom-1 margin-right-1" ><span class='material-icons relative md-24' style="left: -2px; top: 1px">whatsapp</span>Hablemos por Whatsapp</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="background" style="background-image:url(https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg)"></div>
+</section>
+
+//- :::  Section of Plugins in this Page ::: -//
++background_youtube()
+
+//- :::  Star Footer Content ::: -//
+include ../includes/footer
